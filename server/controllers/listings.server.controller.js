@@ -78,11 +78,10 @@ exports.delete = function(req, res) {
     if(err){
       console.log(err);
       res.status(400).send(err);
-    } else{
+    } else {
       res.status(200).send();
     }
   });
-
 };
 
 /* Retreive all the directory listings, sorted alphabetically by listing code */
